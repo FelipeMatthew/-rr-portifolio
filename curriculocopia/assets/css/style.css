@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a887d3;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    padding: 1em;
+    width: 1500px;
+    height: 200px;
+}
+form{
+    border: 1px solid whitesmoke;
+    border-radius: 5em;
+    padding: 0.3em;
+}
+form input, form button{
+    font-size: 1.2em;
+    border-radius: 5em;
+    border: none;
+    padding: 0.2em;
+}
+form button{
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;}
+    body{text-align: right;}
+form button:hover {
+    background-color: whitesmoke;
+    color: blueviolet;
+}
+
+
+.logo-rr{
+    max-width: 150px;
+    border-radius: 100px;
+    background-color: #5c3878;
+    
+}
+body{text-align:left;
+max-width: 1000px;}
+
+
+nav{
+    position:relative;
+  background-color: #7840c0; transition: 1s;
+  padding: 10px 8px;
+  width: 160px;
+  color: rgb(0, 0, 0);
+  background: #ba89f9;
+  border: 3px solid #555;
+  border-radius: 1,5px;
+}
+
+.HI2{
+    max-width: 750px;
+position: relative; top: 250px;
+position: absolute;
+right: 50%;
+size: 10px
+
+}
+
+.textposi{
+    max-width: 650px;
+    font-size: 18px;
+    font-family: cursive;
+    background-color: rgb(230, 197, 251);
+    border-radius: 50px;
+    padding: 2em;
+    position: relative;
+    top: 280px;
+    right: 80px;
+}
+
+.shared{
+    position: absolute;
+    top: 100px;
+    right: 5px;
+}
+
+.namesite{
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fundo{
+    max-width: 2000000px;
+}
